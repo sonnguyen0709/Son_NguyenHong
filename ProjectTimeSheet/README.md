@@ -1,0 +1,80 @@
+## Role-Based Feature Access
+- This system has three primary role:
+    - Admin:  Full system control, including database-level changes
+    - Project Management: Has all basic user features and project management tools
+    - Basic User: Standard feature for timesheet and personal request
+
+### Admin role
+- User:
+    - Create new user
+	- View all user and details
+    - Update user details
+- Role:
+    - View all system roles
+- Configuration
+    - Modify project settings (Email, Komu, Working time,...)
+- Clients
+    - View all clients
+    - Create, edit, delete clients
+- Tasks
+    - View all tasks
+    - Create, update, archive, delete tasks
+- Leave types
+    - View all absence types
+    - Create, edit, delete absence types
+- Branch
+    - View all branches
+    - Create, edit, delete branches
+- Position
+    - View all positions
+    - Create, edit, delete positions
+- Capability
+    - View all capabilities
+    - Create, edit, delete capabilities
+- Capability settings
+    - View all settings
+    - Create, edit, delete (affects Capability)
+- Day Off
+    - View all days off 
+    - Create days off
+- Over time settings
+    - View all settings
+    - Create, edit, delete setting
+- Audit logs
+    - View detailed system logs and request history
+
+### Basic User
+- Information:
+    - View the user details
+    - Request change user details
+- Timesheet:
+    - Log timesheet linked to project tasks
+    - View own daily check-in/check-out and punishment
+- Request
+    - Submit day-specific requests (Request Off, Onsite, Remote,...)
+- Team Working Calendar
+    - View request from team members in project
+- My Working Time
+    - View current working time
+    - Request changes working time
+- Management Timesheet
+    - View all joined projects
+    - See all user and task in those projects
+
+### Project management
+- Management Timesheet:
+    - View all PM own projects
+    - Approve or reject timesheets 
+- Team working calendar management
+    - View all requests of all member in project
+    - Approve or reject requests
+- Retro
+    - Conduct team performance ratings
+    - Add or rate members
+- Review Intern
+    - Conduct Intern performance ratings
+- Reports
+    - View intern info and progress
+    - Export normal working hours to excel file
+    - View overtime and coeffcients
+    - View tardiness/early leave logs
